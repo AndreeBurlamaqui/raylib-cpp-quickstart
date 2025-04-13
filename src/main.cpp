@@ -2,6 +2,10 @@
 #include "resource_dir.h"	// utility header for SearchAndSetResourceDir
 #include <vector>
 
+// Forward declarations
+class IInputHandler;  // Forward declare IInputHandler
+class InputSystem;    // Forward declare InputSystem
+
 class IGameObject {
 private:
 	virtual ~IGameObject() = default;
